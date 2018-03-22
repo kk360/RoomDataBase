@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kk.callstatusdemo.AddPlayer">
+
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etfname"
+        android:hint="first name"
+        android:layout_margin="16dp"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etlname"
+        android:hint="last name"
+        android:layout_margin="16dp"
+        android:layout_below="@id/etfname"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etemail"
+        android:hint="email"
+        android:layout_below="@id/etlname"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnadd"
+        android:text="Add"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_below="@id/etemail"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_margin="16dp"
+        android:backgroundTint="#28ce28"/>
+
+
+</RelativeLayout>
